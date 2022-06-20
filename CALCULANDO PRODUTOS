@@ -1,0 +1,29 @@
+Var
+CodProduto : caracter
+valor1 : inteiro
+valor2 : real
+resultado: real
+Inicio
+
+
+
+ ESCREVAL ("------------------------------------------------------")
+  ESCREVAL ("------------------------------------------------------")
+  ESCREVAL ("------------------------------------------------------")
+  ESCREVAL ("----------------SEJA BEM VINDO AO NOSSO ESPAÇO-----------")
+  ESCREVAL ("---------VAMOS PEDIR QUE DIGITE AS QUANTIDADES-----------")
+  ESCREVAL ("------------------------------------------------------")
+  ESCREVAL ("------------------------------------------------------")
+
+  ESCREVA ("DIGITE a quantidade:   ")
+  LEIA(valor1)
+  ESCREVA ("VALOR DO PRODUTO:")
+  LEIA(valor2)
+       resultado <- valor1 * valor2
+escreval (valor1, " *", valor2, " =", resultado)
+escreval ("")
+
+  
+
+
+Fimalgoritmo
