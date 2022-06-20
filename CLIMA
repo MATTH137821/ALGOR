@@ -1,0 +1,13 @@
+Var
+
+CLIMA1, TEMPO2 : CARACTER
+
+
+Inicio
+ESCREVA ("DIGA TEMPO")
+Leia (TEMPO2)
+Escreva("CLIMA")
+Leia (CLIMA1)
+
+Escreva("Hoje o tempo está ", TEMPO2, "mas o clima geralmente é ", CLIMA1)
+Fimalgoritmo
