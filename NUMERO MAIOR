@@ -1,0 +1,33 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 21/06/2022
+Var
+numero1, numero2 : inteiro
+
+
+Inicio
+ESCREVAL ("===========================================================")
+ESCREVAL ("===========================================================")
+ESCREVAL ("==================   OLÁ  ===================")
+ESCREVAL ("===========================================================")
+ESCREVAL ("=========  VAMOS TESTAR QUAL É O MAIOR NÚMERO  ============")
+ESCREVAL ("===========================================================")
+ESCREVAL ("===========   PARA ISSO VOCÊ PRECISA DIGITAR DOIS NUMEROS ================")
+ESCREVAL ("=====================   ABAIXO =============")
+ESCREVAL ("===========================================================")
+
+
+ESCREVAL ("ESCREVA NUMERO UM    ")
+LEIA(NUMERO1)
+
+ESCREVAL ("ESCREVA NUMERO DOIS  ")
+LEIA (NUMERO2)
+  SE (NUMERO1 > NUMERO2) ENTAO
+  ESCREVA("MAIOR NUMERO" , NUMERO1)
+  SENAO
+ESCREVA ( "MAIOR NUMERO",  NUMERO2 )
+  FIMSE
+Fimalgoritmo
