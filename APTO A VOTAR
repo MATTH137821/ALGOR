@@ -1,0 +1,25 @@
+Var
+numero1, numero2 : inteiro
+
+
+Inicio
+ESCREVAL ("===========================================================")
+ESCREVAL ("===========================================================")
+ESCREVAL ("==================       OLÁ  ===================")
+ESCREVAL ("===========================================================")
+ESCREVAL ("=========  VAMOS SABER SE VOCÊ É APTO A VOTAR  ============")
+ESCREVAL ("===========================================================")
+ESCREVAL ("===========   PARA ISSO VOCÊ PRECISA DIGITAR ALGUNS DADOS================")
+ESCREVAL ("=====================   ABAIXO =============")
+
+NUMERO2 <- 2006
+
+
+ESCREVAL ("ESCREVA SEU ANO DE NASCIMENTO    ")
+LEIA(NUMERO1)
+  SE (NUMERO1 > NUMERO2) ENTAO
+  ESCREVA("NÃO APTO A VOTAR" )
+  SENAO
+ESCREVA ( "APTO A VOTAR")
+  FIMSE
+Fimalgoritmo
