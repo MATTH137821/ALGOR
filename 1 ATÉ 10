@@ -1,0 +1,14 @@
+Var
+num : inteiro
+
+
+Inicio
+num <- -40
+
+   ENQUANTO NUM <=20  FACA
+      ESCREVAl (NUM)
+num  <- num + 5
+
+    FIMENQUANTO
+
+Fimalgoritmo
