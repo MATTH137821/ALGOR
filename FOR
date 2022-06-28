@@ -1,0 +1,14 @@
+Var
+m2 : inteiro
+
+
+Inicio
+ M2 <-  0
+PARA M2 DE 1 ATE 10 FACA
+
+ESCREVAL (M2)
+
+ FIMPARA
+
+
+Fimalgoritmo
