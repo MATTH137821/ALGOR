@@ -1,0 +1,60 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 02/07/2022
+Var
+X, Y,OP : INTEIRO
+Inicio
+ESCREVAL ("==== MINHA CALCULADORA ===")
+ESCREVAL ("====                   ===")
+ESCREVAL ("==== PRESTE ATENÇÃO ===")
+ESCREVAL ("==== DIGITE UM NUMERO: ===")
+LEIA(X)
+ESCREVAL ("==== DIGITE OUTRO NUMERO ===")
+LEIA (y)
+
+LIMPATELA
+ESCREVAL ("----- 1-SUBTRAÇÃO     ===")
+ESCREVAL ("++++  2-SOMA          ===")
+ESCREVAL ("****  3-MULTIPLICAÇÃO ===")
+ESCREVAL ("---- 4-DIVISÃO       ===")
+
+ESCREVAL("DIGITE O NUMERO DA OPÇÃO")
+LEIA (OP)
+    ESCOLHA OP
+CASO 1
+ESCREVAL ("OPÇÃO SELECIONADA 1-SUBTRAÇÃO")
+ESCREVAL ("A SUBTRAÇÃO DOS DOIS NUMEROS" , X , "-",Y ,"=" , X-Y)
+
+ESCREVAL("================================================")
+
+
+CASO 2
+ESCREVAL ("OPÇÃO SELECIONADA 2-SOMA")
+ESCREVAL ("A SOMA DOS DOIS NUMEROS", X ,"+",Y ,"=" , X+Y)
+
+
+ESCREVAL("================================================")
+
+
+CASO 3
+ESCREVAL ("OPÇÃO SELECIONADA 3-MULTIPLICAÇÃO")
+ESCREVAL ("A MULTIPLICAÇÃO DOS DOIS NUMEROS", X ,"*",Y ,"=" , X*Y)
+
+ESCREVAL("================================================")
+
+CASO 4
+ESCREVAL ("OPÇÃO SELECIONADA 4-DIVISÃO")
+ESCREVA ("A DIVISÃO DOS DOIS NUMEROS", X ,"/",Y ,"=" , X/Y)
+
+OUTROCASO
+ESCREVA ("QUAL SERIA?")
+
+ESCREVAL("================================================")
+
+
+
+FIMESCOLHA
+Fimalgoritmo
