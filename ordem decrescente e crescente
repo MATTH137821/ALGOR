@@ -1,0 +1,59 @@
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 07/07/2022
+Var
+
+num1, num2, num3, ordem1, ordem2, ordem3: inteiro
+
+Inicio
+
+escreval("====================================================")
+escreval("| Vamos descobrir a ordem decrescente e crescente dos 3 digitados  |")
+escreval("=====================================================||")
+escreval("number 01: ")
+leia(num1)
+escreval("number 02: ")
+leia(num2)
+escreval("number 03: ")
+leia(num3)
+
+se (num1 < num2) e (num1 < num3) entao
+   ordem1 <- num1
+   se (num2 < num3) entao
+      ordem2 <- num2
+      ordem3 <- num3
+   senao
+      ordem2 <- num3
+      ordem3 <- num2
+   fimse
+fimse
+se (num2 < num1) e (num2 < num3) entao
+   ordem2 <- num2
+   se (num1 < num3) entao
+      ordem2 <- num1
+      ordem3 <- num3
+   senao
+      ordem2 <- num3
+      ordem3 <- num1
+   fimse
+fimse
+
+se (num3 < num2) e (num3 < num1) entao
+   ordem1 <- num3
+   se (num2 < num1) entao
+      ordem2 <- num2
+      ordem3 <- num1
+   senao
+      ordem2 <- num1
+      ordem3 <- num2
+   fimse
+ fimse
+ 
+ 
+ escreva("OS NÚMEROS EM ORDEM CRESCENTE SÃO: ", ordem1, ordem2, ordem3)
+ escreval("=====================================================||")
+ escreval("=====================================================||")
+ escreval("=====================================================||")
+ ESCREVAL( "OS NÚMEROS EM  ORDEM DECRESCENTE SÃO:", ORDEM3,ORDEM2,ORDEM1)
+
+Fimalgoritmo
