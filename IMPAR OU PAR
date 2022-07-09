@@ -1,0 +1,35 @@
+Var
+N : INTEIRO
+
+PROCEDIMENTO PAROUIMPAR(V : INTEIRO)
+ INICIO
+ ESCREVAL("===============================================")
+ ESCREVAL("===============================================")
+ SE (V%2 = 0) ENTAO
+ ESCREVAL ("O NUMERO" , V  ,"   É PAR")
+ ESCREVAL ("MUITO BEM, VAMOS PRA UM PRÓXIMO NUMERO?")
+ ESCREVAL("===============================================")
+ ESCREVAL("===============================================")
+ SENAO
+ ESCREVAL("===============================================")
+ ESCREVAL("===============================================")
+ ESCREVAL ("O NUMERO", V , "  É IMPAR")
+ ESCREVAL ("MARAVILHA, TÁ GOSTANDO?")
+ ESCREVAL("===============================================")
+ ESCREVAL("===============================================")
+ FIMSE
+ FIMPROCEDIMENTO
+
+Inicio
+
+LIMPATELA
+ESCREVAL("===============================================")
+ESCREVAL("==========SEJA BEM VINDO =======")
+ESCREVAL("============ TÁ COM DUVIDAS??  ====================")
+
+
+ESCREVAL ( " ENTÃO DIGITE UM NUMERO: ")
+LEIA (N)
+PAROUIMPAR(N)
+
+Fimalgoritmo
