@@ -1,0 +1,41 @@
+Algoritmo "semnome"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 08/07/2022
+Var
+I   :INTEIRO
+N , PESADO  : CARACTERE
+P,MAI  : REAL
+
+PROCEDIMENTO  TOPO()
+
+INICIO
+ ESCREVAL ("-----------------------------------------")
+ESCREVAL ("       DETECTOR DE MAIOR PESO")
+ESCREVAL( "                 *            " )
+ ESCREVAL ("--MAIOR PESO ATÉ AGORA:   "    , PESADO , "  COM" , MAI ,"   KG   ")
+ 
+FIMPROCEDIMENTO
+
+Inicio
+
+TOPO()
+ PARA I <- 1 ATE 5 FACA
+ ESCREVA ("DIGITE O NOME:       ")
+ LEIA(N)
+ ESCREVA ("DIGITE O PESO: "  , N, ":")
+ LEIA (P)
+
+ SE (P > MAI) ENTAO
+ MAI <- P
+ PESADO <- N
+ FIMSE
+LIMPATELA
+ TOPO()
+ FIMPARA
+ LIMPATELA
+TOPO()
+ ESCREVAL (" A PESSOA MAIS PESADA FOI      " ,  PESADO, "  ,COM", MAI , "  QUILOS")
+Fimalgoritmo
