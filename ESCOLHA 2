@@ -1,0 +1,70 @@
+Algoritmo "semnome"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 02/07/2022
+Var
+X, Y,OP,OV : INTEIRO
+Inicio
+ESCREVAL ("==== OPERAÇÕES ===")
+ESCREVAL ("====                   ===")
+ESCREVAL ("==== PRESTE ATENÇÃO ===")
+ESCREVAL ("==== DIGITE UM NUMERO: ===")
+LEIA(X)
+ESCREVAL ("==== DIGITE OUTRO NUMERO ===")
+LEIA (y)
+
+LIMPATELA
+ESCREVAL (" 1-MEDIA")
+ESCREVAL (" 2-MAIOR E MENOR" )
+ESCREVAL (" 3-PRODUTO ENTRE OS NUMEROS DIGITADOS")
+ESCREVAL (" 4-DIVISÃO"       )
+
+ESCREVAL("DIGITE O NUMERO DA OPÇÃO")
+LEIA (OP)
+    ESCOLHA OP
+
+ESCREVAL("================================================")
+CASO 1
+ESCREVAL ("OPÇÃO SELECIONADA 1-MEDIA")
+ESCREVAL ("A SOMA DOIS  NUMEROS É:|" , X + Y,"|" )
+ESCREVAL("================================================")
+ESCREVAL("DIGITE A SOMA DOIS NUMEROS:" )
+  LEIA(OV)
+  ESCREVAL ("A MEDIA |", OV / 2 ,"|")
+
+ESCREVAL("================================================")
+
+
+CASO 2
+ESCREVAL ("OPÇÃO SELECIONADA 2-MAIOR E MENOR")
+ESCREVAL("================================================")
+ESCREVAL("================================================")
+ESCREVAL("O MAIOR NUMERO ENTRE:", X ," E ", Y)
+SE ( X >Y) ENTÃO
+ESCREVA ( "O MAIOR NUMERO É:", X)
+SENAO
+ESCREVA ("O MAIOR NUMERO É", Y)
+FIMSE
+
+
+CASO 3
+ESCREVAL ("OPÇÃO SELECIONADA 3-PRODUTOS DIGITADOS")
+ESCREVAL ("A MULTIPLICAÇÃO DOS DOIS NUMEROS", X ,"*",Y ,"=" , X*Y)
+
+ESCREVAL("================================================")
+
+CASO 4
+ESCREVAL ("OPÇÃO SELECIONADA 4-DIVISÃO")
+ESCREVA ("A DIVISÃO DOS DOIS NUMEROS", X ,"/",Y ,"=" , X/Y)
+
+OUTROCASO
+ESCREVA ("QUAL SERIA?")
+
+ESCREVAL("================================================")
+
+
+
+FIMESCOLHA
+Fimalgoritmo
