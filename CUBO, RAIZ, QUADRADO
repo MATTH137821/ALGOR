@@ -1,0 +1,47 @@
+Algoritmo "QUADRADO, CUBO E RAIZ"
+
+var
+num1, NUM2 , cubo1,CUBO2 , quadrado1,QUADRADO2 , RAIZQQ1 , RAIZQQ2: real
+inicio
+// Seção de comandos
+
+ ESCREVAL ("===============      SEJA BEM-VINDO        ================")
+  ESCREVAL ("======= VAMOS CALCULAR ALGUMAS OPERAÇÕES ================")
+   ESCREVAL ("===============       LOGICAS      =============")
+escreva ("DIGITE UM NUMERO: ")
+leia (num1)
+ESCREVA ("DIGITE OUTRO NUMERO: ")
+LEIA(NUM2)
+ ESCREVAL ("===========================================")
+  ESCREVAL ("===========================================")
+   ESCREVAL ("===========================================")
+  LIMPATELA
+//COMANDOS
+cubo1 <- exp (num1, 3)
+CUBO2 <- EXP (NUM2, 3)
+quadrado1 <- exp (num1, 2)
+QUADRADO2 <-EXP (NUM2,2)
+RAIZQQ1 <- RAIZQ (NUM1)
+RAIZQQ2  <- RAIZQ (NUM2)
+
+ //RESULTADOS
+ ESCREVAL (" ------------  RESULTADO ------------")
+ ESCREVAL ("============================================")
+  ESCREVAL ("============================================")
+ 
+escreval (" O NUMERO" , num1 , " O SEU QUADRADO é: ", quadrado1)
+escreval (" O SEU CUBO é: ",cubo1)
+ escreval ( " A SUA RAIZ QUADRADA é: ", RAIZQQ1)
+ESCREVAL ("===================================")
+escreval (" O NUMERO " , num2 , "  ,O SEU QUADRADO é: ", quadrado2)
+escreval (" O SEU CUBO é: ",cubo2)
+ escreval ("A SUA RAIZ QUADRADA é: ", RAIZQQ2)
+  ESCREVAL ("============================================")
+ ESCREVAL ("============================================")
+ 
+ ESCREVAL ("OBRIGADO")
+ 
+ 
+
+
+fimalgoritmo
