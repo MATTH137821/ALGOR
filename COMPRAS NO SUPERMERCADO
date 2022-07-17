@@ -1,0 +1,99 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 17/07/2022
+Var
+OP,FJ,AR,MC,OL : INTEIRO
+PTFJ , PTAR , PTMC , PTOL , PRECOTOTAL: REAL
+
+PROCEDIMENTO  TOPO()
+
+INICIO
+LIMPATELA
+ESCREVAL ("0110 -FEIJÃO")
+ESCREVAL ("1120 -ARROZ" )
+ESCREVAL ("2130-MACARRÃO")
+ESCREVAL ("3140-OLEO"       )
+ESCREVAL ("0000- ENCERRAR"       )
+ESCREVAL("DIGITE O NUMERO DA OPÇÃO")
+LEIA (OP)
+    ESCOLHA OP
+FIMPROCEDIMENTO
+Inicio
+ESCREVAL ("==== MERCADO ===")
+ESCREVAL ("====                   ===")
+ESCREVAL ("==== PRESTE ATENÇÃO ===")
+
+LIMPATELA
+ESCREVAL ("0110 -FEIJÃO")
+ESCREVAL ("1120 -ARROZ" )
+ESCREVAL ("2130-MACARRÃO")
+ESCREVAL ("3140-OLEO"       )
+
+ESCREVAL("DIGITE O NUMERO DA OPÇÃO")
+LEIA (OP)
+    ESCOLHA OP
+
+ESCREVAL("================================================")
+CASO 0110
+ESCREVAL ("OPÇÃO SELECIONADA 0110-FEIJÃO")
+ESCREVAL ("A QUANTIDADE LEVADA:|   " )
+ESCREVAL("================================================")
+ESCREVAL("DIGITE :" )
+  LEIA(FJ)
+  ESCREVAL ("VALOR |", FJ * 10.00 ,"|")
+ PTFJ <- FJ * 10
+ TOPO ()
+ESCREVAL("================================================")
+
+
+CASO 1120
+ESCREVAL("================================================")
+ESCREVAL ("OPÇÃO SELECIONADA 1120-ARROZ")
+ESCREVAL ("A QUANTIDADE LEVADA:|   " )
+ESCREVAL("================================================")
+ESCREVAL("DIGITE :" )
+  LEIA(AR)
+  ESCREVAL ("VALOR |", AR * 15.00 ,"|")
+  PTAR <- AR * 15
+
+ TOPO()
+
+CASO 2130
+ESCREVAL("================================================")
+ESCREVAL ("OPÇÃO SELECIONADA 2130-MACARRAO")
+ESCREVAL ("A QUANTIDADE LEVADA:|   " )
+ESCREVAL("================================================")
+ESCREVAL("DIGITE :" )
+  LEIA(MC)
+  ESCREVAL ("VALOR |", MC * 20.00 ,"|")
+  PTMC <- MC * 20
+  TOPO ()
+ESCREVAL("================================================")
+
+CASO 3140
+ESCREVAL("================================================")
+ESCREVAL ("OPÇÃO SELECIONADA 3140-OLEO")
+ESCREVAL ("A QUANTIDADE LEVADA:|   " )
+ESCREVAL("================================================")
+ESCREVAL("DIGITE : " )
+  LEIA(OL)
+  ESCREVAL ("VALOR |", OL * 30.00 ,"|")
+  PTOL <- OL * 30
+  
+ TOPO ()
+CASO 0000
+ESCREVAL (" VALOR TOTAL DA COMPRA " , PTFJ + PTAR + PTMC + PTOL)
+ PRECOTOTAL <- PTFJ + PTAR + PTMC + PTOL
+ 
+ ESCREVAL("VALOR DO TOTAL DO FEIJÃO " , PTFJ, " , QUANT: " , FJ)
+ESCREVAL("VALOR DO TOTAL DO ARROZ " , PTAR, " , QUANT: " , AR)
+ESCREVAL("VALOR DO TOTAL DO MACARRÃO " , PTMC, " , QUANT: " , MC)
+ESCREVAL("VALOR DO TOTAL DO OLEO " , PTOL, " , QUANT: " , OL)
+
+ESCREVAL("================================================")
+
+FIMESCOLHA
+Fimalgoritmo
