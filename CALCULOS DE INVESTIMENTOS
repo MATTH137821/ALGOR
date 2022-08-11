@@ -1,0 +1,97 @@
+Algoritmo "semnome"
+
+Var
+OP,AP,GT,RD : INTEIRO
+PTAP , PTGT , PTRD ,PR,PH: REAL
+
+PROCEDIMENTO  TOPO()
+
+INICIO
+LIMPATELA
+
+ESCREVAL ("====  VAMOS CALCULAR  ===")
+ESCREVAL ("====  SUAS FINANÇAS   ===")
+ESCREVAL ("====  PRESTE ATENÇÃO ===")
+ESCREVAL ("01 -APLICAÇÕES")
+ESCREVAL ("02 -GASTOS" )
+ESCREVAL ("03 -RENDIMENTOS  E SALARIO")
+ESCREVAL ("00 -FINALIZAR"       )
+ESCREVAL("DIGITE O NUMERO DA OPÇÃO")
+LEIA (OP)
+    ESCOLHA OP
+FIMPROCEDIMENTO
+Inicio
+ESCREVAL ("====  VAMOS CALCULAR  ===")
+ESCREVAL ("====  SUAS FINANÇAS   ===")
+ESCREVAL ("====  PRESTE ATENÇÃO ===")
+LIMPATELA
+ESCREVAL ("01 -APLICAÇÕES")
+ESCREVAL ("02 -GASTOS" )
+ESCREVAL ("03 -RENDIMENTOS")
+ESCREVAL ("00 -FINALIZAR"       )
+ESCREVAL("DIGITE O NUMERO DA OPÇÃO")
+LEIA (OP)
+
+    ESCOLHA OP
+
+ESCREVAL("================================================")
+CASO 01
+ESCREVAL ("OPÇÃO SELECIONADA 01-OPERAÇÕES")
+ESCREVAL ("O VALOR APLICADO NESSE MÊS:|   " )
+ESCREVAL("================================================")
+ESCREVAL("DIGITE : " )
+  LEIA(AP)
+ESCREVAL ("OUTRO VALOR?")
+ESCREVAL ("VALOR |", AP)
+PTAP <- AP
+TOPO ()
+ESCREVAL("================================================")
+
+
+CASO 02
+ESCREVAL("================================================")
+ESCREVAL ("OPÇÃO SELECIONADA 02 -GASTOS")
+ESCREVAL ("O VALOR GASTO COM DESPESAS :|   " )
+ESCREVAL("================================================")
+ESCREVAL("DIGITE : " )
+  LEIA(GT)
+  ESCREVAL ("VALOR |", GT)
+  PTGT <- GT
+
+ TOPO()
+
+CASO 03
+ESCREVAL("================================================")
+ESCREVAL ("OPÇÃO SELECIONADA 03 - RENDIMENTOS TOTAIS COM O SALARIO ")
+ESCREVAL ("VALOR ACUMULADO:|   " )
+ESCREVAL("================================================")
+ESCREVAL("DIGITE : " )
+  LEIA(RD)
+  ESCREVAL ("VALOR |", RD)
+  PTRD <- RD
+  TOPO ()
+ESCREVAL("================================================")
+
+OUTROCASO
+ESCREVAL (" VALOR TOTAL DE TODAS AS ENTRADAS E SAÍDAS")
+
+ ESCREVAL("VALOR DO TOTAL DAS APLICAÇÕES " , PTAP)
+ESCREVAL("VALOR DO TOTAL DOS GASTOS " , PTGT)
+ESCREVAL("VALOR DO TOTAL DOS REDIMENTOS " , PTRD)
+ESCREVAL("========================================")
+ESCREVAL("========================================")
+ESCREVAL("========================================")
+
+
+
+ESCREVAL("VALOR DOS RENDIMENTOS DESCONTADO OS GASTOS : ",PTRD - PTGT)
+ESCREVAL ("VALOR DE TOTAIS RENDIMENTOS SUBTRAIDOS SOMADOS COM AS APLICAÇÕES: ", (PTRD - PTGT  )+PTAP)
+ESCREVAL ("VALOR PARA SER DEPOSITADO EM NOVA APLICAÇÃO,",PTRD *(30)/100)
+
+
+
+ESCREVAL("================================================")
+
+FIMESCOLHA
+ESCREVAL("OBRIGADO,CONTINUE OLHANDO PARA O SEU FUTURO")
+Fimalgoritmo
