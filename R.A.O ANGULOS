@@ -1,0 +1,13 @@
+print('VAMOS SABER QUAL O TIPO DO TRIANGULO')
+print('VOCÊ PRECISA DIGITAR OS TRÊS LADOS')
+print('DIGITE O DADO: ')
+lado1 = int(input('lado 1: '))
+lado2= int(input('lado 2: '))
+lado3 = int(input('lado 3: '))
+
+if  lado1 > 90 or lado2 > 90 or lado3 > 90:
+    print('Obttusângulo')
+elif lado1 == 90 or lado2 == 90 or lado3 == 90:
+    print("retângulo")
+elif  lado1 < 90 or lado2 < 90 or lado3 <90:
+    print('Acutângulo')
