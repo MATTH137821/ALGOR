@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>blog pessoal Matheus Barbosa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img src="ALGORITIMOS/matheus (1) (1).png">
+    <h1 id="title">Blog Matheus Barbosa</h1>
+</header>
+<section>
+    <header>
+        <img src="ALGORITIMOS/1653342811896 (1).png">
+        <h2 class="subtitle">POST</h2>
+    </header>
+    <article>
+        <header>
+            <h3 class="post_title">"Um pouco sobre mim"</h3>
+        </header>
+        <p>
+            Um pouco sobre<a href="https://www.linkedin.com/in/matheus-d-barbosa-721666201"target=_blank > mim</a>, é que sou alegre, simpático e educado no que diz respeito a atendimento. Gosto de conversar e entender como posso resolver  problemas do cliente.
+   Acima, listei algumas das minhas experiências de voluntariado e de atendimento ao público. 
+   Falo Espanhol fluentemente, o que ajuda na interação com estrangeiros que visitem o estabelecimento. Tenho boa escrita e dicção, colaborando para a fluidez do contato.
+    Caso queira me enviar um E-mail, <a href="mailto:eldermatthewduare37@gmail.com "> clique aqui </a>.
+</p>
+    </article>
+</section>
+<footer>
+    <ul>Matheus Duarte Barbosa
+
+    </ul>
+    <ul>
+        <a href="mailto:eldermatthewduare37@gmail.com"> Eldermatthewduare37@gmail.com </a>
+    </ul>
+    <ul>
+        <a href="https://www.linkedin.com/in/matheus-d-barbosa-721666201">Linkedin</a>
+    </ul>
+</footer>
+    
+</body>
