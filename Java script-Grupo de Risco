@@ -1,0 +1,23 @@
+
+var  idade =17
+var peso = 57
+if ( idade < 20 && peso <= 60)
+console.log("indice de risco 9")
+else if(idade >20  && idade <50 && peso <60)
+console.log('indice de risco 6')
+else if(idade>50 && peso<60)
+console.log('indice de risco 3')
+//entre 60 e 90
+else if(idade<20 && peso>60 && peso <90)
+console.log('indice de risco 8')
+else if(idade>20  && idade <50 && peso>60 && peso <90)
+console.log('indice de risco 5')
+else if(idade>50 && peso>60 && peso <90)
+console.log('indice de risco 2')
+//Acima de 90
+else if(idade <20 && peso>90)
+console.log('indice de risco 7')
+else if(idade >20 && idade <50  && peso > 90)
+console.log('indice de risco 4')
+else if(idade>50 && peso>90)
+console.log('indice de risco 1')
